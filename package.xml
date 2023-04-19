@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>uaf_jackal_navigation</name>
+  <version>1.0.0</version>
+  <description>Customized jackal navigation package for UAF</description>
+  <maintainer email="dprandle@alaska.edu">Daniel Randle</maintainer>
+  <license>MIT</license>
+  <author email="spourmehr@clearpathrobotics.com">Shokoofeh Pourmehr</author>
+  <url type="website">http://ros.org/wiki/jackal_navigation</url>
+  <url type="repository">https://github.com/jackal/jackal</url>  
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roslaunch</build_depend>
+  <exec_depend>gmapping</exec_depend>
+  <exec_depend>move_base</exec_depend>
+  <export>
+  </export>
+</package>
